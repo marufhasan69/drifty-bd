@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.showcase{
+    position: relative;
+    height: 100vh;
+
+}
+.video-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+.content{
+    z-index: 10;
+    height: 80vh;
+    display: block;
+    padding-top: 20vh;
+    
+}
+.banner-heading h1{
+    font-size: 89px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.banner-heading h5{
+    font-size: 70px;
+    font-weight: 300;
+    line-break: 30px;
+    letter-spacing: 1px;
+    color: white
+}
+.banner-heading p{
+    font-size: 30px;
+    color: white;
+}
+.banner-heading span{
+    font-size: 18px;
+    color: white;
+}
+.home-card h3{
+    font-size: 60px;
+    color:#5E17EB;
+}
+.home-card p{
+    font-size: 30px;
+}
+.btn-custom{
+    color:#ffffff;
+    background-color:#5E17EB ;
+}
+.btn-custom:hover{
+    background: none;
+    border: 1px solid #5E17EB ;
+}
+.card-hover{
+    transition: 2s;
+    cursor: pointer;
+}
+.card-hover:hover{
+    transform: scale(1.1);
+    
+}
+.banner-2{
+    position: absolute;
+}
+.content-2{
+    position: relative;
+    margin: auto;
+    top: 240px;
+    left: 0;
+    
+    display: block;
+
+}
+.content-text h3{
+    font-size: 70px;
+    color: white;
+}
+.content-text p{
+    font-size: 24px;
+    color: white;
+}
+
